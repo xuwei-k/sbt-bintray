@@ -37,7 +37,7 @@ lazy val root = (project in file("."))
   )
   .settings(
     scalaVersion := "2.12.2",
-    sbtVersion in Global := "1.0.0-M5",
+    sbtVersion in Global := "1.0.0-M6",
     scalaCompilerBridgeSource :=
       ("org.scala-sbt" % "compiler-interface" % "0.13.15" % "component").sources
   )
